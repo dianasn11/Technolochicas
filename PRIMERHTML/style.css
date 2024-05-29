@@ -1,0 +1,68 @@
+body{
+    /* Color de fondo */
+    background-color: bisque;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1, h3{
+    /*Color del texto */
+    color: darkgreen;
+    font-family: "Poetsen One", sans-serif;
+}
+
+#banner{
+    height: 80%;
+    /* se puede trabajar con pixeles o porcentajes, es la altura de la imagen */
+}
+
+img{
+    /* Cambiar el tamaño de imagenes, puede ser en porcentajes o pixeles */
+    width: 500px;
+    /* el borde se maneja en px */
+    border-radius: 20px;
+}
+
+.floreriachica{
+    /* para una clase se ocupa el punto */
+    width: 500px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+/* Editar div del menú */
+.menu{
+    /* background-color: blue; */
+    display: flex; 
+    /* felx es flexible */
+    flex-direction: column;
+    /* alinea items de forma centrada */
+    align-items: center;
+}
+
+/* Editar anclas */
+a{
+    color: brown;
+    text-decoration: none;
+    padding: 5px;
+    /* padding en horizontal y vertical */
+    margin-bottom: 5px;
+
+}
+
+a:hover{
+    background-color: rgba(0, 255, 255, 0.585);
+    color: azure;
+}
+
+.container{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+}
+
+.flor_eje{
+    width: 25%;
+    margin-right: 30px;
+    margin-left: 30px;
+}

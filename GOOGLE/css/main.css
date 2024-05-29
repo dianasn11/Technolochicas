@@ -1,0 +1,227 @@
+body{
+    /* Margen predeterminado en las paginas web, quitar lo predeterminado */
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* *************************** */
+/* ****** NAVEGACIÓN ********* */
+
+header{
+    /* background-color: aqua; */
+    /* WIDTH : anchura / HEIGHT : altura */
+    width: 100%;
+    height: 70%;
+}
+
+header nav{
+    display: flex;
+    /* flex-end para mover todos los elementos al final del documento (derecha)*/
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    /* eliminar viñetas */
+    /*background-color: aqua;¨*/
+    list-style: none; 
+    width: 250px;
+    /* elemento flexible */
+    display: flex;
+    /* centrar */
+    justify-content: space-between;
+    align-items: center;
+    /* height cambia automaticamente */
+    height: auto;
+}
+
+nav .nav-right-section a{
+    text-decoration: none; 
+    color: rgba(0, 0, 0, 87); 
+}
+
+nav .nav-right-section .menu{
+    background-image: url(https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png);
+    width: 20px;
+    height: 20px;
+    /* tamaño de la imagen de fondo */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav .nav-right-section img{
+    /* margin - right // margen derecho y hacer espacio a la foto */
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+/* *************************** */
+/* ********** MAIN *********** */
+
+main{
+    margin-top: 200px;
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+main .main-logo{
+    /*background-color: blue; */
+    width: 500px;
+    /* PROPIEDAD: valor 1 valor 2 */
+    /* PRIMER VALOR ES VERTICAL SEGUNDO VALOR ES HORIZONTAL */
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: -140px;
+}
+
+main .main-logo img{
+    height: 100px;
+}
+
+/* *************************** */
+/* **** INPUT SECTION ******** */
+
+main .main-input{
+    /* background-color: aqua; */
+    /* anchura */
+    width: 500px;
+    /* centrar el elemento */
+    margin: 0 auto;
+    /* agregar margen inferior */
+}
+
+main .main-input-container{
+    /* background-color: bisque; */
+    width: 500px;
+    /* borde de color: anchura de linea - estilo - color; */
+    border: 1px solid #dfe1e5;
+    border-radius: 35px;
+}
+
+main .main-input input{
+    height: 45px;
+    border: none;
+    outline: none;
+    width: 400px;
+}
+
+main .main-input .search-icon{
+    background-image: url(https://seekicon.com/free-icon-download/search_20.svg);
+    background-size: contain;
+    background-position: center;
+    padding-left: 6%;
+    /*   PARA QUE NO SE REPITA EL ÍCONO */
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+main .main-input .micro-icon {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 10px;
+    background-repeat: no-repeat;
+}
+
+main .main-input .cam-icon {
+    background-image: url(https://static.wikia.nocookie.net/logopedia/images/2/2b/Google_Lens_2021.svg);
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-position: center;
+    padding-left: 6%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+/* *************************** */
+/* ** BUTTONS SECTOIN ****** */
+
+main .main-buttons {
+    /* anchura */
+    width: 550px ;
+    /* Vertical ~ Horizontal */
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    /* Alinear elementos en la misma línea */
+    display: inline;
+}
+
+main .main-buttons button {
+    /* SEPARACIÓN ENTRE BUSCADOR Y BOTONES */
+    margin-top: 30px;
+    /* Eliminar borde negro -- NONE or 0px */
+    border: none;
+    height: 40px;
+    background-color: #f8f9fa;
+    /* Color de texto */
+    color: #3c4043;
+    border-radius: 5px;
+    padding: 0px 15px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+main .main-buttons button:hover{
+    color: #202124;
+    /* borde + oscuro al pasar mouse */
+    border: 1px solid #dadce0;
+    /* Sombra al pasar mouse */
+    box-shadow: 0 1px 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f8f8;
+}
+
+/* *************************** */
+/* ********* FOOTER ********** */
+
+/* primero se acomoda el footer, dando color, anchura, alinenando y poniendo el borde */
+footer{
+    width: 100%;
+    height: 50px;
+/*position absolute y bottom 0 permite que el footer siempre se quede abajo*/
+    position: absolute;
+    bottom: 0;
+    /* display grid divide las columnas en lo que se le indique*/
+    display: grid;
+    /* se pone cuantas columnas se necesitan "1fr" hace referencia a cada columna*/
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    /* borde arriba de 1px solido de color*/
+    border-top: 1px solid #e4e4e4;
+}
+
+/* acomodando los elemtos de la lista (ul) */
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+} 
+
+/*acomodando las palabras*/
+
+footer ul li a{
+    /*margin para que se separen entre ellos las palabras*/
+    margin: 10px;
+    color: #5f6368;
+    text-decoration: none;
+}

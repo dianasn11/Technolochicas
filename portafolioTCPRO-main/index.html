@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo web de Jane Doe">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Diana Shareni | Desarrolladora web </title>
+    <!-- Favicon icono de la pestaña de la pagina-->
+    <link rel="icon" type="image/x-icon" href="/imagenes/icono.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <!-- PROPIEDAD A INVESTIGAR (COLLAPSE, FALSE) -->
+          <a class="navbar-brand" href="#">
+            <!-- <img src="/imagenes/icono.png" width="20" alt="Logo de la página web"> -->
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+  <div class="juntos">
+    <section class="hero">
+      <div class="hero-principal d-flex flex-column justify-content-flex align-items-flex">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/prueba.jpg" alt="Foto de DS">
+        <!-- <h1>Hola, soy Diana Shareni</h1> -->
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+      </div>
+      <!-- <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div> -->
+    </section>
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura" style="width: 50%;">
+      <div class="contenedor">
+        <!--Animación con JavaScript-->
+        <h2 class="text-success mb-4" id="typewriter"></h2>
+
+        <p class="seccion-texto"> Hola, mi nombre es Diana Shareni, soy desarrolladora web, un gusto 🙋‍♀️.
+                                Soy una persona decidida y optimista enfocada en aprender nuevas cosas que me ayuden en mi desarrollo profesional
+        </p>
+    </section>
+  </div>
+
+    <section class="informacion-personal">
+      <p class="seccion-texto">
+        Residencia: Ixtapaluca, México ||  Edad: 22 años || Universidad: TESI
+      </p>
+    </section>
+
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">DESARROLLO WEB</p>
+            <p>En las residencias profesionales junto con el servicio social trabaje con lenguajes de programación  front-end como de back-end.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-danger">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-warning">JavaScript</span>
+              <span class="badge text-bg-primary">PHP</span>
+              <span class="badge text-bg-primary">SQL</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <!-- <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Pasatiempos</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Escribir</span>
+              <span class="badge text-bg-primary">Editar</span>
+              <span class="badge text-bg-primary">Blogs</span>
+            </div>
+          </div> -->
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-6">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">ESTUDIANTE</p>
+            <p>En el transcurso de mi carrera he tomado varios cursos que me han ayudado en la ingeniería. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-warning">ORACLE NEXT EDUCATION</span>
+              <span class="badge text-bg-primary">CISCO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">PROYECTOS</h2>
+      <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/google.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clon de google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/dianasn11/GoogleClon" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://super-cocada-ceeb00.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/documentos.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Sistema de documentos</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/dianasn11/DocumentsControl" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://main--reliable-horse-aa79f1.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/seguimiento.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Sistema de control.</p>
+                <div class="iconos-contenedor"> 
+                  <a href="https://github.com/dianasn11/ControlSystem" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://courageous-melomakarona-af11d0.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/portafolio.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Portafolio</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/dianasn11/Portafolio" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <!-- Proyecto 6 -->
+          <!-- <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto6.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <a href="https://github.com/dianasn11" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-outline-success">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">TESTIMONIOS</h2>
+      <h3 class="seccion-descripcion">Estas son algunas opiniones de compañeros que han trabajado conmigo</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/icono_testimonio_hombre.jpg" alt="Foto de Gino">
+              <p class="testimonio-texto">Es una persona con convicciones fuertes, se mantiene en las decisiones siendo una persona leal y comprensiva, a si mismo teniendo "hambre del futuro".</p>
+              <div class="testimonio-info">
+                <p class="cliente">Luis Alberto.</p>
+                <p class="cargo">Ingeniero en robótica. </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/icono_testimonio_mujer.jpg" alt="Foto de Nora">
+              <p class="testimonio-texto">Es una persona perseverante, que lucha por lo que quiere y cada una de sus metas, escucha sin importar la situación y el momento; esforzándose siempre por aprender más y por lograrlo entender, no se queda con lo que sabe e indaga más sobre el tema.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Laura.</p>
+                <p class="cargo">Ing. en Sistemas Computacionales.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/icono_testimonio_mujer.jpg" alt="Icono de gabriela">
+              <p class="testimonio-texto">Es una persona responsable, es amable y eficaz, que siempre busca ayudar en lo que se necesita, sin duda es una buena compañera de trabajo, es una persona con quien se puede trabajar de manera eficiente.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Gabriela</p>
+                <p class="cargo">Lic. en psicología. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Contactame!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Click para crear juntos tu realidad en una pagina.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:najerashareni@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo todos los días.
+        <!-- <br>Creemos un proyecto juntos  -->
+      </p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <!-- <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a> -->
+        <a href="https://github.com/dianasn11" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/diana-shareni-sotero-n%C3%A1jera-815a36263/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/shxrxnx_sn?igsh=cjh0OWNiYmlmbWZ2" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:najerashareni@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Diana Shareni (2024) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
